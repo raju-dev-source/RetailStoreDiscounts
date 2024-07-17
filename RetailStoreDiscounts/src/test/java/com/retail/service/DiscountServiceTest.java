@@ -1,6 +1,5 @@
 package com.retail.service;
 
-
 import com.retail.model.Bill;
 import com.retail.model.User;
 import com.retail.model.UserType;
