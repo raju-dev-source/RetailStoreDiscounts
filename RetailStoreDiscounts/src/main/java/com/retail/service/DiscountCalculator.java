@@ -1,6 +1,5 @@
 package com.retail.service;
 
-
 import com.retail.model.Bill;
 import com.retail.model.User;
 import com.retail.model.UserType;
@@ -28,8 +27,7 @@ public class DiscountCalculator {
         double totalAmount = bill.getTotalAmount();
 
         discount += (int) (totalAmount / 100) * 5;
-
-
+        
         if (!isGrocery(bill)) {
             if (user.getUserType() == UserType.EMPLOYEE) {
                 discount += totalAmount * 0.30;
@@ -39,7 +37,6 @@ public class DiscountCalculator {
                 discount += totalAmount * 0.05;
             }
         }
-
         return discount;
     }
 
