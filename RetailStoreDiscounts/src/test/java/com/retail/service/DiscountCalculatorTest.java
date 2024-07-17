@@ -5,8 +5,6 @@ import com.retail.model.User;
 import com.retail.model.UserType;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
-
-
 import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
